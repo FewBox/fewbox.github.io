@@ -184,7 +184,7 @@
                                     <input title="PayPal" class="logo" type="image" src="/images/payment.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                                 </div>
                                 <input id="coupon" name="custom" class="coupon" type="text"><span class="couponOff">Coupon 20% OFF</span>
-                                <img alt="" border="0" src="https://www.sandbox.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
+                                <img alt="" border="0" src="https://www.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
                             </form>
                         </div>
                     </div>
@@ -202,7 +202,7 @@
                             <p>All Advanced license features</p>
                         </div>
                         <div class="paypalButton">
-                            <form action="@ViewBag.PaypalUrl" method="post" target="_blank">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                                 <input type="hidden" name="cmd" value="_xclick-subscriptions">
                                 <input type="hidden" name="business" value="@ViewBag.BusinessId">
                                 <input type="hidden" name="lc" value="US">
@@ -220,7 +220,7 @@
                                     <input title="PayPal" class="logo" type="image" src="/images/payment.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                                 </div>
                                 <input id="couponYearly" name="custom" class="coupon" type="text"><span class="couponOff">Coupon 20% OFF</span>
-                                <img alt="" border="0" src="https://www.sandbox.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
+                                <img alt="" border="0" src="https://www.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
                             </form>
                         </div>
                     </div>
@@ -242,12 +242,10 @@
                     </p>
                 </div>
                 <div class="col-md-3">
-                    <h2>Reseller Equity</h2>
+                    <h2>Purchasing</h2>
                     <p>Unlimited use the chic tools.</p>
-                    <p>You will get a <b>20% off</b> coupon, the client can subscribe license with this coupon then you will get <b>10% benefit</b> every month or year.</p>
-                    <p><b>Click Coupon</b> to be our partner now! (Note: 49.99$/year)</p>
                     <div class="couponButton">
-                        <form action="@ViewBag.PaypalUrl" method="post" target="_blank">
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                             <input type="hidden" name="cmd" value="_xclick-subscriptions">
                             <input type="hidden" name="business" value="@ViewBag.BusinessId">
                             <input type="hidden" name="lc" value="US">
@@ -262,7 +260,7 @@
                             <input type="hidden" name="currency_code" value="USD">
                             <input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHosted">
                             <input class="logo" type="image" src="images/coupon.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.sandbox.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
+                            <img alt="" border="0" src="https://www.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
                         </form>
                         <div class="couponConent"><div class="ticket">2093730893</div></div>
                     </div>
@@ -274,11 +272,11 @@
                 </div>
                 <div class="col-md-3">
                     <h2>Contact Us</h2>
-                    <p><a href="mailto:sales@fewbox.com?subject=[Feedback]&body=Your Suggestion Here:"><image class="smallIcon" src="/images/email.svg" alt="Email"><span>Feedback with Email</span></a></p>
+                    <p><a href="mailto:sales@fewbox.com?subject=[Feedback]&body=Your Suggestion Here:"><image class="smallIcon" src="images/email.svg" alt="Email"><span>Feedback with Email</span></a></p>
                     <p>
-                        <A HREF="@ViewBag.PaypalUrl?cmd=_subscr-find&alias=@ViewBag.BusinessId" target="_blank">
-                            <image class="smallIcon" src="/images/unsubscribe.svg" alt="PayPal - Unsubscribe!"><span>Unsubscribe</span>
-                        </A>
+                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=@ViewBag.BusinessId" target="_blank">
+                            <image class="smallIcon" src="images/unsubscribe.svg" alt="PayPal - Unsubscribe!"><span>Unsubscribe</span>
+                        </a>
                     </p>
                 </div>
             </div>
@@ -294,20 +292,20 @@
         <div class="getInTouch">
             <ul>
                 <li>
-                    <a href="https://twitter.com/FewBox" target="_blank"><img src="/images/twitter.svg"></a>
+                    <a href="https://twitter.com/FewBox" target="_blank"><img src="images/twitter.svg"></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/fewboxteam/" target="_blank"><img src="/images/facebook.svg"></a>
+                    <a href="https://www.facebook.com/fewboxteam/" target="_blank"><img src="images/facebook.svg"></a>
                 </li>
                 <li>
-                    <a href="http://www.linkedin.com/company/fewbox" target="_blank"><img src="/images/linkedin.svg"></a>
+                    <a href="http://www.linkedin.com/company/fewbox" target="_blank"><img src="images/linkedin.svg"></a>
                 </li>
                 <li>
-                    <a href="skype:live:support_42788?chat"><img src="/images/skype.svg"></a>
+                    <a href="skype:live:support_42788?chat"><img src="images/skype.svg"></a>
                 </li>
             </ul>
         </div>
-        <div class="copyright">Copyright © 2017 By FewBox Team, All Rights Reserved</div>
+        <div class="copyright">Copyright © 2019 By FewBox Team, All Rights Reserved</div>
     </div>
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/bootstrap.min.js"></script>
