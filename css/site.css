@@ -51,7 +51,7 @@ input, select, textarea {
     }
 
         .footer .trademark .logo {
-            background-image: url(/images/logo-black.svg);
+            background-image: url(images/logo-black.svg);
             background-size: contain;
             background-repeat: no-repeat;
             width: 160px;
@@ -113,7 +113,7 @@ input, select, textarea {
 
     .subcribeLicense .tag {
         position: absolute;
-        background-image: url(/images/licenseTag.svg);
+        background-image: url(images/licenseTag.svg);
         width: 100px;
         height: 100px;
         background-repeat: no-repeat;
@@ -258,7 +258,7 @@ input, select, textarea {
 
 .navbar-brand .logo {
     margin: 0 3px;
-    background-image: url(/images/logo.svg);
+    background-image: url(images/logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 42px;
@@ -308,7 +308,7 @@ input, select, textarea {
         }
     .brochure .image {
         background-repeat: no-repeat;
-        background-image: url(/images/brochure-image.png);
+        background-image: url(images/brochure-image.png);
         background-size: auto 420px;
         height: 420px;
     }
@@ -483,16 +483,16 @@ input, select, textarea {
     margin: 30px 0;
 }
 .lenovo {
-    background-image: url(/images/lenovo.svg);
+    background-image: url(images/lenovo.svg);
 }
 .sony {
-    background-image: url(/images/sony.svg);
+    background-image: url(images/sony.svg);
 }
 .tempursealy {
-    background-image: url(/images/tempursealy.svg);
+    background-image: url(images/tempursealy.svg);
 }
 .boostsolutions {
-    background-image: url(/images/boostsolutions.svg);
+    background-image: url(images/boostsolutions.svg);
 }
 .productName {
     font-size: 36px;
@@ -506,7 +506,7 @@ input, select, textarea {
         font-size: 16px;
     }
 .feature:before {
-    content: url(/images/checked.svg);
+    content: url(images/checked.svg);
     color: #434343;
     text-align: center;
     margin-right: 10px;
@@ -518,29 +518,29 @@ input, select, textarea {
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/images/chicActiveDirectory.png);
+    background-image: url(images/chicActiveDirectory.png);
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.19);
 }
 .chicActiveDirectory-User {
-    background-image: url(/images/chicActiveDirectory-User.png);
+    background-image: url(images/chicActiveDirectory-User.png);
 }
 .chicActiveDirectory-Contact {
-    background-image: url(/images/chicActiveDirectory-Contact.png);
+    background-image: url(images/chicActiveDirectory-Contact.png);
 }
 .chicActiveDirectory-Group {
-    background-image: url(/images/chicActiveDirectory-Group.png);
+    background-image: url(images/chicActiveDirectory-Group.png);
 }
 .chicActiveDirectory-Computer {
-    background-image: url(/images/chicActiveDirectory-Computer.png);
+    background-image: url(images/chicActiveDirectory-Computer.png);
 }
 .chicActiveDirectory-OrganizationalUnit {
-    background-image: url(/images/chicActiveDirectory-OrganizationalUnit.png);
+    background-image: url(images/chicActiveDirectory-OrganizationalUnit.png);
 }
 .chicActiveDirectory-Container {
-    background-image: url(/images/chicActiveDirectory-Container.png);
+    background-image: url(images/chicActiveDirectory-Container.png);
 }
 .chicActiveDirectory-Dashboard {
-    background-image: url(/images/chicActiveDirectory-Dashboard.png);
+    background-image: url(images/chicActiveDirectory-Dashboard.png);
 }
 .product {
 }
@@ -582,16 +582,16 @@ input, select, textarea {
         margin: 0 auto;
     }
     .step .action1screenshot {
-        background-image: url(/images/action1screenshot.png)
+        background-image: url(images/action1screenshot.png)
     }
     .step .action2screenshot {
-        background-image: url(/images/action2screenshot.png)
+        background-image: url(images/action2screenshot.png)
     }
     .step .action3screenshot {
-        background-image: url(/images/action3screenshot.png)
+        background-image: url(images/action3screenshot.png)
     }
 .advertisement {
-    background-image: url(/images/advertisement.svg)
+    background-image: url(images/advertisement.svg)
 }
 .productFeature {
     margin: 60px 0;
@@ -600,7 +600,7 @@ input, select, textarea {
         font-size: 16px;
     }
         .productFeature p:before {
-            content: url(/images/checked.svg);
+            content: url(images/checked.svg);
             color: #434343;
             text-align: center;
             margin-right: 10px;
