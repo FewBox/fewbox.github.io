@@ -23,35 +23,27 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
+            <a href="/">
                 <span class="logo"></span><span class="word">ewBox</span>
             </a>
         </div>
         <div class="navbar-collapse collapse reset-navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle reset-dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product <span class="caret"></span></a>
                         <ul class="dropdown-menu reset-dropdown-menu">
-                            <li class="dropdown-header">Active Directory Tools</li>
-                            <li><a asp-area="" asp-controller="Product" asp-action="ChicActiveDirectory">Chic Active Directory</a></li>
+                            <li class="dropdown-header">Online Active Directory</li>
+                            <li><a href="https://activedirectory.fewbox.com">FewBox Active Directory</a></li>
                             <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Cloud Tools</li>
-                            <li><a asp-area="" asp-controller="Product" asp-action="ChicActiveDirectoryCloud">Chic Active Directory Cloud</a></li>
+                            <li class="dropdown-header">Cloud Native Active Directory</li>
+                            <li><a href="fewbox-activedirectory-yaml.html">FewBox Active Directory Yaml</a></li>
+                            <li><a href="fewbox-activedirectory-Helm.html">FewBox Active Directory Helm</a></li>
                         </ul>
                     </li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="OurStory">Our Story</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Register">Register</a></li>
+                    <li><a href="fewbox-activedirectory-howtouse.html">How to use?</a></li>
                     <li>
                         <a href="https://paypal.me/fewbox/1" target="_blank" title="Donate"><span type="submit">Donate</span></a>
-                    </li>
-                    <li>
-                        <form class="navbar-form navbar-left" role="search">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                            </div>
-                            <a asp-area="" asp-controller="Product" asp-action="FreeTools"><span id="freeDownload" type="submit" class="btn btn-default reset-btn">Free Download</span></a>
-                        </form>
                     </li>
                 </ul>
         </div>
@@ -135,9 +127,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="subcribeLicense">
-                        <div class="type">BASIC</div>
+                        <div class="type">Beta</div>
                         <div class="splitLine"></div>
                         <div class="price">
                             <span class="currency">$</span><span class="value">0</span>&nbsp;<span class="period">Free</span>
@@ -146,56 +138,21 @@
                             <p><b>Free</b> download all chic tools and use them <b>Now</b></p>
                         </div>
                         <div class="paypalButton">
-                            <form action="/Product/FreeTools" method="get" target="_blank">
+                            <form action="download.html" method="get" target="_blank">
                                 <div class="purchaseButton">
-                                    <input class="logo" type="image" src="/images/download.svg" border="0" name="submit" alt="Download">
+                                    <input class="logo" type="image" src="images/download.svg" border="0" name="submit" alt="Download">
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="subcribeLicense">
-                        <div class="type">ADVANCED</div>
-                        <div class="splitLine"></div>
-                        <div class="price">
-                            <span class="currency">$</span><span id="priceCaption" class="value">1.99</span><span class="period">/month</span>
-                        </div>
-                        <div class="description">
-                            <p><b>Store</b> self-extensions <b>on Cloud</b></p>
-                            <p> & <b>Use Everywhere</b></p>
-                        </div>
-                        <div class="paypalButton">
-                            <form action="@ViewBag.PaypalUrl" method="post" target="_blank">
-                                <input type="hidden" name="cmd" value="_xclick-subscriptions">
-                                <input type="hidden" name="business" value="@ViewBag.BusinessId">
-                                <input type="hidden" name="lc" value="US">
-                                <input id="itemName" type="hidden" name="item_name" value="Advanced License">
-                                <input type="hidden" name="item_number" value="AdvancedLicense">
-                                <input type="hidden" name="no_note" value="1">
-                                <input type="hidden" name="no_shipping" value="2">
-                                <input type="hidden" name="src" value="1">
-                                <input id="price" type="hidden" name="a3" value="1.99">
-                                <input type="hidden" name="p3" value="1">
-                                <input type="hidden" name="t3" value="M">
-                                <input type="hidden" name="currency_code" value="USD">
-                                <input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHosted">
-                                <div class="purchaseButton">
-                                    <input title="PayPal" class="logo" type="image" src="/images/payment.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                </div>
-                                <input id="coupon" name="custom" class="coupon" type="text"><span class="couponOff">Coupon 20% OFF</span>
-                                <img alt="" border="0" src="https://www.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="subcribeLicense">
                         <div class="tag"></div>
                         <div class="type">PRO</div>
                         <div class="splitLine"></div>
                         <div class="price">
-                            <span class="currency">$</span><span class="oldValue">23.88</span><span id="priceCaptionYearly" class="value">19.99</span><span class="period">/year</span>
+                            <span class="currency">$</span><span class="oldValue">9.99</span><span id="priceCaptionYearly" class="value">1.99</span><span class="period">/year</span>
                         </div>
                         <div class="description">
                             <p><b>Customized</b> extensions support <b>Free</b></p>
@@ -238,32 +195,12 @@
                 <div class="col-md-3">
                     <h2>Our Mission</h2>
                     <p>
-                        We believe that in the "<span class="fontHighlight">F</span>uture" there will be a lot of "<span class="fontHighlight">E</span>nterprises", so we provide free and chic tools to assist them to improve the work efficiency to "<span class="fontHighlight">W</span>in" the business.
+                        <span class="fontHighlight">F</span>lexible <span class="fontHighlight">E</span>easy <span class="fontHighlight">W</span>orth
                     </p>
                 </div>
                 <div class="col-md-3">
                     <h2>Purchasing</h2>
                     <p>Unlimited use the chic tools.</p>
-                    <div class="couponButton">
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                            <input type="hidden" name="cmd" value="_xclick-subscriptions">
-                            <input type="hidden" name="business" value="@ViewBag.BusinessId">
-                            <input type="hidden" name="lc" value="US">
-                            <input type="hidden" name="item_name" value="Advanced License">
-                            <input type="hidden" name="item_number" value="AdvancedLicense">
-                            <input type="hidden" name="no_note" value="1">
-                            <input type="hidden" name="no_shipping" value="2">
-                            <input type="hidden" name="src" value="1">
-                            <input id="price" type="hidden" name="a3" value="49.99">
-                            <input type="hidden" name="p3" value="1">
-                            <input type="hidden" name="t3" value="Y">
-                            <input type="hidden" name="currency_code" value="USD">
-                            <input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHosted">
-                            <input class="logo" type="image" src="images/coupon.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                        <div class="couponConent"><div class="ticket">2093730893</div></div>
-                    </div>
                 </div>
                 <div class="col-md-3">
                     <h2>FAQs</h2>
