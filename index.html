@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Active Directory - FewBox</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="We believe that in the 'Future' there will be a lot of small 'Enterprise', so we provide free and chic tools to assist them to save their hours of work to 'Win' the business." />
+    <meta name="keywords" content="Active Directory" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.min.css" asp-append-version="true" />
+</head>
+<body>
+    <div id="header" class="navbar navbar-default navbar-fixed-top reset-navbar">
+        <div class="navbar-header reset-navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
+                <span class="logo"></span><span class="word">ewBox</span>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse reset-navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle reset-dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product <span class="caret"></span></a>
+                        <ul class="dropdown-menu reset-dropdown-menu">
+                            <li class="dropdown-header">Active Directory Tools</li>
+                            <li><a asp-area="" asp-controller="Product" asp-action="ChicActiveDirectory">Chic Active Directory</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Cloud Tools</li>
+                            <li><a asp-area="" asp-controller="Product" asp-action="ChicActiveDirectoryCloud">Chic Active Directory Cloud</a></li>
+                        </ul>
+                    </li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="OurStory">Our Story</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Register">Register</a></li>
+                    <li>
+                        <a href="https://paypal.me/fewbox/1" target="_blank" title="Donate"><span type="submit">Donate</span></a>
+                    </li>
+                    <li>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <a asp-area="" asp-controller="Product" asp-action="FreeTools"><span id="freeDownload" type="submit" class="btn btn-default reset-btn">Free Download</span></a>
+                        </form>
+                    </li>
+                </ul>
+        </div>
+    </div>
+    <div>
+        <div class="container-fluid">
+            <div class="row brochure">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="description">
+                        <div class="prefix">Use chic tool</div>
+                        <div class="content rw-words rw-words-1 hidden-sm hidden-xs">
+                            <div>to make your work easy.</div>
+                            <div>to improve the efficiency.</div>
+                            <div>to win the business.</div>
+                            <div>to make your work easy.</div>
+                            <div>to improve the efficiency.</div>
+                        </div>
+                    </div>
+                    <div class="solution">
+                        FewBox is a chic tool solutions suite that could greatly improve your work efficiency.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image wistia_embed wistia_async_2lqio6lpt7 popover=true popoverAnimateThumbnail=true popoverContent=link wistia_embed_initialized">
+                        <a href="" target="_blank" alt="FewBox Chic Active Directory Video">
+                            <svg class="hero-play-button-big" width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc></desc>
+                                <defs></defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="play_button_big1" fill-rule="nonzero">
+                                        <circle id="Oval" fill="#4A90E2" cx="45" cy="45" r="45"></circle>
+                                        <polygon id="Shape" fill="#FFFFFF" points="64.6470588 45.8823529 32.8823529 66.1764706 32.8823529 25.5882353"></polygon>
+                                    </g>
+                                </g>
+                            </svg>
+        
+                        </a>
+                    </div>
+                    <script src="https://fast.wistia.com/embed/medias/2lqio6lpt7.jsonp" async></script>
+                    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+                </div>
+            </div>
+            <div class="row client">
+                <div class="container">
+                    <div class="col-md-2"><div class="brand lenovo"></div></div>
+                    <div class="col-md-2"><div class="brand sony"></div></div>
+                    <div class="col-md-3"><div class="brand tempursealy"></div></div>
+                    <div class="col-md-3"><div class="brand boostsolutions"></div></div>
+                    <div class="col-md-2"><div class="clientDescription">Our OSS Client</div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="summaryDescription">All the chic tools are <b>EASY</b> to use!</h2>
+                </div>
+            </div>
+            <div class="row product">
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                    <a href="images/chicActiveDirectory.png">
+                        <div class="chicActiveDirectory"></div>
+                    </a>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <h3 class="productName">Chic Active Directory</h3>
+                    <ul class="top-features">
+                        <li><p class="feature">Customize your own search criteria and store them on cloud.</p></li>
+                        <li><p class="feature">Just 3 steps to manage the user, contact, group, computer...</p></li>
+                        <li><p class="feature">Manage the users, contacts, groups, computers... by batch.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a name="subscribe"></a>
+                    <h2 class="summaryDescription">All the chic tools are <b>FREE</b>!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="subcribeLicense">
+                        <div class="type">BASIC</div>
+                        <div class="splitLine"></div>
+                        <div class="price">
+                            <span class="currency">$</span><span class="value">0</span>&nbsp;<span class="period">Free</span>
+                        </div>
+                        <div class="description">
+                            <p><b>Free</b> download all chic tools and use them <b>Now</b></p>
+                        </div>
+                        <div class="paypalButton">
+                            <form action="/Product/FreeTools" method="get" target="_blank">
+                                <div class="purchaseButton">
+                                    <input class="logo" type="image" src="/images/download.svg" border="0" name="submit" alt="Download">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subcribeLicense">
+                        <div class="type">ADVANCED</div>
+                        <div class="splitLine"></div>
+                        <div class="price">
+                            <span class="currency">$</span><span id="priceCaption" class="value">1.99</span><span class="period">/month</span>
+                        </div>
+                        <div class="description">
+                            <p><b>Store</b> self-extensions <b>on Cloud</b></p>
+                            <p> & <b>Use Everywhere</b></p>
+                        </div>
+                        <div class="paypalButton">
+                            <form action="@ViewBag.PaypalUrl" method="post" target="_blank">
+                                <input type="hidden" name="cmd" value="_xclick-subscriptions">
+                                <input type="hidden" name="business" value="@ViewBag.BusinessId">
+                                <input type="hidden" name="lc" value="US">
+                                <input id="itemName" type="hidden" name="item_name" value="Advanced License">
+                                <input type="hidden" name="item_number" value="AdvancedLicense">
+                                <input type="hidden" name="no_note" value="1">
+                                <input type="hidden" name="no_shipping" value="2">
+                                <input type="hidden" name="src" value="1">
+                                <input id="price" type="hidden" name="a3" value="1.99">
+                                <input type="hidden" name="p3" value="1">
+                                <input type="hidden" name="t3" value="M">
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHosted">
+                                <div class="purchaseButton">
+                                    <input title="PayPal" class="logo" type="image" src="/images/payment.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                </div>
+                                <input id="coupon" name="custom" class="coupon" type="text"><span class="couponOff">Coupon 20% OFF</span>
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subcribeLicense">
+                        <div class="tag"></div>
+                        <div class="type">PRO</div>
+                        <div class="splitLine"></div>
+                        <div class="price">
+                            <span class="currency">$</span><span class="oldValue">23.88</span><span id="priceCaptionYearly" class="value">19.99</span><span class="period">/year</span>
+                        </div>
+                        <div class="description">
+                            <p><b>Customized</b> extensions support <b>Free</b></p>
+                            <p>All Advanced license features</p>
+                        </div>
+                        <div class="paypalButton">
+                            <form action="@ViewBag.PaypalUrl" method="post" target="_blank">
+                                <input type="hidden" name="cmd" value="_xclick-subscriptions">
+                                <input type="hidden" name="business" value="@ViewBag.BusinessId">
+                                <input type="hidden" name="lc" value="US">
+                                <input id="itemNameYearly" type="hidden" name="item_name" value="Pro License">
+                                <input type="hidden" name="item_number" value="ProLicense">
+                                <input type="hidden" name="no_note" value="1">
+                                <input type="hidden" name="no_shipping" value="2">
+                                <input type="hidden" name="src" value="1">
+                                <input id="priceYearly" type="hidden" name="a3" value="19.99">
+                                <input type="hidden" name="p3" value="1">
+                                <input type="hidden" name="t3" value="Y">
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHosted">
+                                <div class="purchaseButton">
+                                    <input title="PayPal" class="logo" type="image" src="/images/payment.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                </div>
+                                <input id="couponYearly" name="custom" class="coupon" type="text"><span class="couponOff">Coupon 20% OFF</span>
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="summaryDescription">All the chic tools also support <b>ONE-TIME</b> purchase!</h2>
+                    <div class="oneTimePurchase">
+                        <a href="mailto:sales@fewbox.com?subject=[One-Time Purchase]&body=Your Bid Here:"><span class="btn large-btn">Purchase Now!</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row footerAbout">
+                <div class="col-md-3">
+                    <h2>Our Mission</h2>
+                    <p>
+                        We believe that in the "<span class="fontHighlight">F</span>uture" there will be a lot of "<span class="fontHighlight">E</span>nterprises", so we provide free and chic tools to assist them to improve the work efficiency to "<span class="fontHighlight">W</span>in" the business.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h2>Reseller Equity</h2>
+                    <p>Unlimited use the chic tools.</p>
+                    <p>You will get a <b>20% off</b> coupon, the client can subscribe license with this coupon then you will get <b>10% benefit</b> every month or year.</p>
+                    <p><b>Click Coupon</b> to be our partner now! (Note: 49.99$/year)</p>
+                    <div class="couponButton">
+                        <form action="@ViewBag.PaypalUrl" method="post" target="_blank">
+                            <input type="hidden" name="cmd" value="_xclick-subscriptions">
+                            <input type="hidden" name="business" value="@ViewBag.BusinessId">
+                            <input type="hidden" name="lc" value="US">
+                            <input type="hidden" name="item_name" value="Advanced License">
+                            <input type="hidden" name="item_number" value="AdvancedLicense">
+                            <input type="hidden" name="no_note" value="1">
+                            <input type="hidden" name="no_shipping" value="2">
+                            <input type="hidden" name="src" value="1">
+                            <input id="price" type="hidden" name="a3" value="49.99">
+                            <input type="hidden" name="p3" value="1">
+                            <input type="hidden" name="t3" value="Y">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHosted">
+                            <input class="logo" type="image" src="images/coupon.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.sandbox.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                        <div class="couponConent"><div class="ticket">2093730893</div></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h2>FAQs</h2>
+                    <p class="faqTitle">Can I request a refund?</p>
+                    <p>Of cause! We provide a 15-day money-back guarantee.</p>
+                </div>
+                <div class="col-md-3">
+                    <h2>Contact Us</h2>
+                    <p><a href="mailto:sales@fewbox.com?subject=[Feedback]&body=Your Suggestion Here:"><image class="smallIcon" src="/images/email.svg" alt="Email"><span>Feedback with Email</span></a></p>
+                    <p>
+                        <A HREF="@ViewBag.PaypalUrl?cmd=_subscr-find&alias=@ViewBag.BusinessId" target="_blank">
+                            <image class="smallIcon" src="/images/unsubscribe.svg" alt="PayPal - Unsubscribe!"><span>Unsubscribe</span>
+                        </A>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="trademark">
+            <div class="logo">
+                <div class="logoWord">ewBox</div>
+            </div>
+        </div>
+        <div class="splitLine"></div>
+        <div class="getInTouch">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/FewBox" target="_blank"><img src="/images/twitter.svg"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/fewboxteam/" target="_blank"><img src="/images/facebook.svg"></a>
+                </li>
+                <li>
+                    <a href="http://www.linkedin.com/company/fewbox" target="_blank"><img src="/images/linkedin.svg"></a>
+                </li>
+                <li>
+                    <a href="skype:live:support_42788?chat"><img src="/images/skype.svg"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">Copyright © 2017 By FewBox Team, All Rights Reserved</div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#coupon').keyup(function (e) {
+                $('#price').val(1.99);
+                $('#priceCaption').html(1.99);
+                $('#itemName').val('Advanced License');
+                if (e.target.value.length == 9)
+                {
+                    $.get('/api/services/validatecoupon/' + e.target.value, function (json) {
+                        if (json.data) {
+                            $('#price').val(1.59);
+                            $('#priceCaption').html(1.59);
+                            $('#itemName').val('Advanced License with Coupon');
+                        }
+                    });
+                }
+            });
+            $('#couponYearly').keyup(function (e) {
+                $('#priceYearly').val(19.99);
+                $('#priceCaptionYearly').html(19.99);
+                $('#itemNameYearly').val('Pro License');
+                if (e.target.value.length == 9) {
+                    $.get('/api/services/validatecoupon/' + e.target.value, function (json) {
+                        if (json.data) {
+                            $('#priceYearly').val(15.99);
+                            $('#priceCaptionYearly').html(15.99);
+                            $('#itemNameYearly').val('Pro License with Coupon');
+                        }
+                    });
+                }
+            });
+            var noBrochure = $('.brochure').offset().top + 600;
+            $(document).scroll(function () {
+                if ($(this).scrollTop() > noBrochure) {
+                    $('#header').addClass('headerScroll');
+                    $('#freeDownload').addClass('freeDownloadScroll');
+                }
+                else {
+                    $('#header').removeClass('headerScroll');
+                    $('#freeDownload').removeClass('freeDownloadScroll');
+                }
+            });
+        });
+    </script>
+    <script src="js/abigimage.jquery.min.js"></script>
+    <link rel="stylesheet" href="css/abigimage.jquery.min.css" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.product a').abigimage({
+                onopen: function (target) {
+                    $('.navbar').removeClass('navbar-fixed-top');
+                },
+                onclose: function (target) { 
+                    $('.navbar').addClass('navbar-fixed-top');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

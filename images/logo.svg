@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="145px" height="140px" viewBox="0 0 145 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="-2.84217094e-14 26 72.0064734 0.162779652 144.012947 26 144.012947 115 72.0064734 139.50451 -2.84217094e-14 115"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="144.012947" height="139.34173" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo">
+            <use id="Border" stroke="#DB0C75" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+            <g id="F-&amp;-B" transform="translate(41.000000, 40.000000)" fill="#DB0C75">
+                <rect id="Rectangle-19" x="0" y="0" width="49.6" height="6.2"></rect>
+                <rect id="Rectangle-19-Copy" x="0" y="24.68375" width="49.6" height="6.2"></rect>
+                <rect id="Rectangle-20" x="0" y="0" width="6.2" height="62"></rect>
+                <rect id="Rectangle-18" x="12.4" y="55.8" width="49.6" height="6.2"></rect>
+                <polygon id="Rectangle-21" points="55.8 24.18 62 24.18 62 48.1826417 62 61.38 55.8 61.38"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
