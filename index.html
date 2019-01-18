@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cloud Active Directory - FewBox</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="We believe that in the 'Future' there will be a lot of small 'Enterprise', so we provide free and chic tools to assist them to save their hours of work to 'Win' the business." />
+    <meta name="description" content="Flexible Easy Worth " />
     <meta name="keywords" content="Active Directory" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/site.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
 </head>
 <body>
     <div id="header" class="navbar navbar-default navbar-fixed-top reset-navbar">
@@ -195,7 +195,7 @@
                 <div class="col-md-3">
                     <h2>Our Mission</h2>
                     <p>
-                        <span class="fontHighlight">F</span>lexible <span class="fontHighlight">E</span>easy <span class="fontHighlight">W</span>orth
+                        <span class="fontHighlight">F</span>lexible <span class="fontHighlight">E</span>asy <span class="fontHighlight">W</span>orth
                     </p>
                 </div>
                 <div class="col-md-3">
@@ -247,50 +247,6 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/bootstrap.min.js"></script>
     <script src="js/site.min.js" asp-append-version="true"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#coupon').keyup(function (e) {
-                $('#price').val(1.99);
-                $('#priceCaption').html(1.99);
-                $('#itemName').val('Advanced License');
-                if (e.target.value.length == 9)
-                {
-                    $.get('/api/services/validatecoupon/' + e.target.value, function (json) {
-                        if (json.data) {
-                            $('#price').val(1.59);
-                            $('#priceCaption').html(1.59);
-                            $('#itemName').val('Advanced License with Coupon');
-                        }
-                    });
-                }
-            });
-            $('#couponYearly').keyup(function (e) {
-                $('#priceYearly').val(19.99);
-                $('#priceCaptionYearly').html(19.99);
-                $('#itemNameYearly').val('Pro License');
-                if (e.target.value.length == 9) {
-                    $.get('/api/services/validatecoupon/' + e.target.value, function (json) {
-                        if (json.data) {
-                            $('#priceYearly').val(15.99);
-                            $('#priceCaptionYearly').html(15.99);
-                            $('#itemNameYearly').val('Pro License with Coupon');
-                        }
-                    });
-                }
-            });
-            var noBrochure = $('.brochure').offset().top + 600;
-            $(document).scroll(function () {
-                if ($(this).scrollTop() > noBrochure) {
-                    $('#header').addClass('headerScroll');
-                    $('#freeDownload').addClass('freeDownloadScroll');
-                }
-                else {
-                    $('#header').removeClass('headerScroll');
-                    $('#freeDownload').removeClass('freeDownloadScroll');
-                }
-            });
-        });
-    </script>
     <script src="js/abigimage.jquery.min.js"></script>
     <link rel="stylesheet" href="css/abigimage.jquery.min.css" />
     <script type="text/javascript">
