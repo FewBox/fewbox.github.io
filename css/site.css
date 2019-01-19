@@ -3,17 +3,10 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
-
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 input, select, textarea {
     max-width: 280px;
     outline: none;
 }
-
 .carousel-caption p {
     font-size: 20px;
     line-height: 1.4;
