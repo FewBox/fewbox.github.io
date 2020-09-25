@@ -1,0 +1,6 @@
+{
+  items: [
+    { name: "smarter", price: 19.9 },
+    { name: "box", price: 9.9 }
+  ]
+}
