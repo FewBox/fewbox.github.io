@@ -379,51 +379,6 @@ input, select, textarea {
         opacity: 0;
     }
 }
-
-.reset-navbar {
-    margin: 0;
-    background-color: #F0F4F7;
-    border-width: 0;
-    height: 80px;
-    padding: 16px 0 0 0;
-}
-.reset-navbar-header {
-    margin: 0 0 0 60px;
-}
-.reset-navbar-header .logo{
-    background-image: url(../images/logo.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-}
-.reset-navbar-header .span{
-    color: #DB0C75;
-}
-.reset-navbar-collapse {
-    padding-right: 60px;
-}
-.reset-btn {
-    border-width: 0px;
-    border-radius: 20px;
-    background-color: #4A90E2;
-    color: #FFFFFF;
-    padding: 8px 25px;
-    font-size: 12px;
-    width: 150px;
-}
-    .reset-btn:hover {
-        background-color: #4A90E2;
-        color: #FFFFFF;
-    }
-.reset-dropdown-toggle {
-    border-radius: 6px 6px 0  0;
-}
-.reset-dropdown-menu {
-    border-radius: 0 0 6px 6px;
-    background-color: #f8f8f8;
-}
 .headerScroll {
     background-color: #FFFFFF;
     border-bottom: 1px solid #EFF4FA;
