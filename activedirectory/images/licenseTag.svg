@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="93px" viewBox="0 0 93 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Tag</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="resource" transform="translate(-197.000000, -30.000000)">
+            <g id="Tag" transform="translate(197.000000, 30.000000)">
+                <path d="M-1.42108547e-14,6.00438989 C-1.42108547e-14,2.68825692 2.69380806,-9.23705556e-14 5.99889008,-9.23705556e-14 L92.515093,-9.23705556e-14 L-1.42108547e-14,92.5999112 L-1.42108547e-14,6.00438989 Z" id="Rectangle-12" fill="#DB0C75"></path>
+                <polygon id="Page-1" fill="#FFFFFF" points="31 20 26.0357143 23.7142857 28 30 23 26 18 30 19.9642857 23.7142857 15 20 21.1428571 20 23 14 24.8928571 20"></polygon>
+                <text id="Recommend" fill="#FFFFFF" transform="translate(36.012193, 36.012193) rotate(-45.000000) translate(-36.012193, -36.012193) " font-family="HiraKakuStd-W8, Hiragino Kaku Gothic Std" font-size="12" font-weight="600">
+                    <tspan x="-7.98780669" y="41.0121933">Recommend</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
