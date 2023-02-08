@@ -1,58 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fewbox.com/404</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com/500</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com/about</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com/brochure-designer</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com/feature</loc>
-  </url>
-
-  <url>
+    <loc>https://fewbox.com/document</loc>
+    <loc>https://fewbox.com/download</loc>
+    <loc>https://fewbox.com/faq</loc>
+    <loc>https://fewbox.com/home</loc>
+    <loc>https://fewbox.com/license</loc>
+    <loc>https://fewbox.com/newsletter</loc>
+    <loc>https://fewbox.com/pricing-onetime</loc>
     <loc>https://fewbox.com/pricing</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com/robot-designer</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com/features/email</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com/features/facebook</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com/features/instagram</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com/features/tiktok</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com/features/twitter</loc>
-  </url>
-
-  <url>
-    <loc>https://fewbox.com/features/wechat</loc>
+    <loc>https://fewbox.com/service</loc>
+    <loc>https://fewbox.com/support</loc>
+    <loc>https://fewbox.com/updates</loc>
   </url>
 </urlset>
